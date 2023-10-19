@@ -4,7 +4,7 @@
  * mul_nodes - Adds two elements of the stack
  * @stack: pointing to top node of the stack
  * @line_number: line number of of the opcode
- *
+ * 
  * Return: Void
  */
 void mul_nodes(stack_t **stack, unsigned int line_number)
@@ -25,7 +25,7 @@ void mul_nodes(stack_t **stack, unsigned int line_number)
  * mod_nodes - Adds two elements of the stack
  * @stack: pointing to top node of the stack
  * @line_number: line number of of the opcode
- *
+ * 
  * Return: Void
  */
 void mod_nodes(stack_t **stack, unsigned int line_number)

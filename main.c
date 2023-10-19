@@ -5,10 +5,9 @@ stack_t *head = NULL;
  * main - the main entry point
  * @argc: count the argument
  * @argv: lists of argument
- * 
+ *
  * Return: always Zero(0)
  */
-
 int main(int argc, char *argv[])
 {
 	if (argc != 2)
@@ -24,7 +23,7 @@ int main(int argc, char *argv[])
 /**
  * create_node - creates a new node
  * @n: Numbers inside the node
- * 
+ *
  * Return: pointer to the node or NULL
  */
 stack_t *create_node(int n)
@@ -42,7 +41,7 @@ stack_t *create_node(int n)
 
 /**
  * free_nodes - Frees stack nodes
- * 
+ *
  * Return: Nothing
  */
 void free_nodes(void)
@@ -64,7 +63,7 @@ void free_nodes(void)
  * add_to_queue - Adding a node to the queue
  * @new_node: Point to new node
  * @ln: opcode of the line number
- * 
+ *
  * Return: Nothing
  */
 void add_to_queue(stack_t **new_node, __attribute__((unused))unsigned int ln)

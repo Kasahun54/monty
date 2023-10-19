@@ -4,7 +4,7 @@
  * print_char - Prints the Ascii value
  * @line_number: line number of of the opcode
  * @stack: pointing to top node of the stack
- * 
+ *
  * Return: Void
  */
 void print_char(stack_t **stack, unsigned int line_number)
@@ -24,7 +24,7 @@ void print_char(stack_t **stack, unsigned int line_number)
  * print_str - Prints a string
  * @ln: line number of of the opcode
  * @stack: pointing to top node of the stack
- * 
+ *
  * Return: Void
  */
 void print_str(stack_t **stack, __attribute__((unused))unsigned int ln)
@@ -54,7 +54,7 @@ void print_str(stack_t **stack, __attribute__((unused))unsigned int ln)
  * rotl - Rotates the first node of the stack to the bottom
  * @ln: line number of of the opcode
  * @stack: pointing to top node of the stack
- * 
+ *
  * Return: Void
  */
 void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
@@ -79,7 +79,7 @@ void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
  * rotr - Rotates the last node of the stack to the top
  * @ln: line number of of the opcode
  * @stack: pointing to top node of the stack
- * 
+ *
  * Return: Void
  */
 void rotr(stack_t **stack, __attribute__((unused))unsigned int ln)

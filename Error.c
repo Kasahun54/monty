@@ -3,7 +3,7 @@
 /**
  * err - this is error messages determined by their error codes
  * @error_code: available error codes
- * 
+ *
  * Return: void
  */
 void err(int error_code, ...)
@@ -43,7 +43,7 @@ void err(int error_code, ...)
 /**
  * more_err - handles more errors
  * @error_code: The error codes are the following
- * 
+ *
  * Return: void
  */
 void more_err(int error_code, ...)
@@ -82,7 +82,7 @@ void more_err(int error_code, ...)
 /**
  * string_err - handle other errors
  * @error_code: error codes
- * 
+ *
  * Return: void
  */
 void string_err(int error_code, ...)
